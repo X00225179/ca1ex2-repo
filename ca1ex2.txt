@@ -1,0 +1,26 @@
+git config --global user.name "John Doe"
+git config --global user.email "JohnDoe@example.com"
+git config --global core.autocrlf false
+git init
+git add .
+git status
+git commit -m "Initial commit"
+git checkout -b <feature-local-test>
+git checkout b feature-local-test
+git checkout -b feature-local-test
+git add .
+git status
+git commit -m "Second commit"
+git switch master
+git add .
+git status
+git commit 
+git commit -m "third commit"
+git merge feature-local-test
+git add cloud.py
+git commit
+git remote add origin https://github.com/X00225179/ca1ex2-repo.git
+git push
+git push -u origin main
+git push -u origin master
+git pull
